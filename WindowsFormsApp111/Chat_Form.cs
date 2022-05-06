@@ -10,12 +10,11 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp111
 {
-    public partial class AccManagement_Form : Form
+    public partial class Chat_Form : Form
     {
-        public AccManagement_Form()
+        public Chat_Form()
         {
             InitializeComponent();
         }
-
     }
 }

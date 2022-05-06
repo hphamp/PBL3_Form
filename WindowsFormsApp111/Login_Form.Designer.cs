@@ -28,36 +28,38 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtUser = new System.Windows.Forms.TextBox();
+            this.txtPass = new System.Windows.Forms.TextBox();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
-            this.but_Login = new System.Windows.Forms.Button();
+            this.btn_Login = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
-            // textBox1
+            // txtUser
             // 
-            this.textBox1.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.textBox1.Location = new System.Drawing.Point(587, 241);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(235, 22);
-            this.textBox1.TabIndex = 3;
+            this.txtUser.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.txtUser.Location = new System.Drawing.Point(587, 241);
+            this.txtUser.Name = "txtUser";
+            this.txtUser.Size = new System.Drawing.Size(235, 22);
+            this.txtUser.TabIndex = 3;
             // 
-            // textBox2
+            // txtPass
             // 
-            this.textBox2.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.textBox2.Location = new System.Drawing.Point(587, 287);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(235, 22);
-            this.textBox2.TabIndex = 5;
+            this.txtPass.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.txtPass.Location = new System.Drawing.Point(587, 287);
+            this.txtPass.Name = "txtPass";
+            this.txtPass.PasswordChar = '*';
+            this.txtPass.Size = new System.Drawing.Size(235, 22);
+            this.txtPass.TabIndex = 5;
             // 
             // linkLabel1
             // 
@@ -72,17 +74,17 @@
             this.linkLabel1.Text = "Forgotten password?";
             this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
-            // but_Login
+            // btn_Login
             // 
-            this.but_Login.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.but_Login.ForeColor = System.Drawing.Color.Blue;
-            this.but_Login.Location = new System.Drawing.Point(644, 388);
-            this.but_Login.Name = "but_Login";
-            this.but_Login.Size = new System.Drawing.Size(101, 40);
-            this.but_Login.TabIndex = 9;
-            this.but_Login.Text = "Log In";
-            this.but_Login.UseVisualStyleBackColor = true;
-            this.but_Login.Click += new System.EventHandler(this.but_Login_Click);
+            this.btn_Login.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Login.ForeColor = System.Drawing.Color.Blue;
+            this.btn_Login.Location = new System.Drawing.Point(644, 388);
+            this.btn_Login.Name = "btn_Login";
+            this.btn_Login.Size = new System.Drawing.Size(101, 40);
+            this.btn_Login.TabIndex = 9;
+            this.btn_Login.Text = "Log In";
+            this.btn_Login.UseVisualStyleBackColor = true;
+            this.btn_Login.Click += new System.EventHandler(this.but_Login_Click);
             // 
             // pictureBox1
             // 
@@ -126,22 +128,33 @@
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(627, 359);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(130, 23);
+            this.button1.TabIndex = 10;
+            this.button1.Text = "Test Form User";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Login_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Teal;
             this.ClientSize = new System.Drawing.Size(834, 461);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.but_Login);
+            this.Controls.Add(this.btn_Login);
             this.Controls.Add(this.linkLabel1);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.txtPass);
             this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtUser);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
             this.Name = "Login_Form";
-            this.Text = "Form1";
+            this.Text = "Login";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
@@ -156,12 +169,13 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtUser;
+        private System.Windows.Forms.TextBox txtPass;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private System.Windows.Forms.LinkLabel linkLabel1;
-        private System.Windows.Forms.Button but_Login;
+        private System.Windows.Forms.Button btn_Login;
+        private System.Windows.Forms.Button button1;
     }
 }
 

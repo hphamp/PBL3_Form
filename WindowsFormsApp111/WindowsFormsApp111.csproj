@@ -52,6 +52,12 @@
     <Compile Include="AccManagement_Form.Designer.cs">
       <DependentUpon>AccManagement_Form.cs</DependentUpon>
     </Compile>
+    <Compile Include="Chat_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chat_Form.Designer.cs">
+      <DependentUpon>Chat_Form.cs</DependentUpon>
+    </Compile>
     <Compile Include="CheckIO_Form.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -82,6 +88,12 @@
     <Compile Include="MainForm_User.Designer.cs">
       <DependentUpon>MainForm_User.cs</DependentUpon>
     </Compile>
+    <Compile Include="PersonalInfor_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PersonalInfor_Form.Designer.cs">
+      <DependentUpon>PersonalInfor_Form.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ServicePay_Form.cs">
@@ -92,6 +104,9 @@
     </Compile>
     <EmbeddedResource Include="AccManagement_Form.resx">
       <DependentUpon>AccManagement_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Chat_Form.resx">
+      <DependentUpon>Chat_Form.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CheckIO_Form.resx">
       <DependentUpon>CheckIO_Form.cs</DependentUpon>
@@ -107,6 +122,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm_User.resx">
       <DependentUpon>MainForm_User.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PersonalInfor_Form.resx">
+      <DependentUpon>PersonalInfor_Form.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -160,6 +178,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Thiết kế chưa có tên %287%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\avt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gmail-4561841_1280.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

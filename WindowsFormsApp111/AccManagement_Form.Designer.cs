@@ -29,11 +29,11 @@
         private void InitializeComponent()
         {
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.butSearch = new System.Windows.Forms.Button();
+            this.btnSearch = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.butAdd = new System.Windows.Forms.Button();
-            this.butUpdate = new System.Windows.Forms.Button();
-            this.butDelete = new System.Windows.Forms.Button();
+            this.btnAdd = new System.Windows.Forms.Button();
+            this.btnUpdate = new System.Windows.Forms.Button();
+            this.btnDelete = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -44,14 +44,14 @@
             this.textBox1.Size = new System.Drawing.Size(263, 22);
             this.textBox1.TabIndex = 0;
             // 
-            // butSearch
+            // btnSearch
             // 
-            this.butSearch.Location = new System.Drawing.Point(366, 13);
-            this.butSearch.Name = "butSearch";
-            this.butSearch.Size = new System.Drawing.Size(75, 23);
-            this.butSearch.TabIndex = 1;
-            this.butSearch.Text = "Search";
-            this.butSearch.UseVisualStyleBackColor = true;
+            this.btnSearch.Location = new System.Drawing.Point(366, 13);
+            this.btnSearch.Name = "btnSearch";
+            this.btnSearch.Size = new System.Drawing.Size(75, 23);
+            this.btnSearch.TabIndex = 1;
+            this.btnSearch.Text = "Search";
+            this.btnSearch.UseVisualStyleBackColor = true;
             // 
             // dataGridView1
             // 
@@ -63,46 +63,46 @@
             this.dataGridView1.Size = new System.Drawing.Size(743, 334);
             this.dataGridView1.TabIndex = 2;
             // 
-            // butAdd
+            // btnAdd
             // 
-            this.butAdd.Location = new System.Drawing.Point(29, 401);
-            this.butAdd.Name = "butAdd";
-            this.butAdd.Size = new System.Drawing.Size(75, 23);
-            this.butAdd.TabIndex = 3;
-            this.butAdd.Text = "Add";
-            this.butAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Location = new System.Drawing.Point(29, 401);
+            this.btnAdd.Name = "btnAdd";
+            this.btnAdd.Size = new System.Drawing.Size(75, 23);
+            this.btnAdd.TabIndex = 3;
+            this.btnAdd.Text = "Add";
+            this.btnAdd.UseVisualStyleBackColor = true;
             // 
-            // butUpdate
+            // btnUpdate
             // 
-            this.butUpdate.Location = new System.Drawing.Point(130, 401);
-            this.butUpdate.Name = "butUpdate";
-            this.butUpdate.Size = new System.Drawing.Size(75, 23);
-            this.butUpdate.TabIndex = 4;
-            this.butUpdate.Text = "Update";
-            this.butUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Location = new System.Drawing.Point(130, 401);
+            this.btnUpdate.Name = "btnUpdate";
+            this.btnUpdate.Size = new System.Drawing.Size(75, 23);
+            this.btnUpdate.TabIndex = 4;
+            this.btnUpdate.Text = "Update";
+            this.btnUpdate.UseVisualStyleBackColor = true;
             // 
-            // butDelete
+            // btnDelete
             // 
-            this.butDelete.Location = new System.Drawing.Point(230, 401);
-            this.butDelete.Name = "butDelete";
-            this.butDelete.Size = new System.Drawing.Size(75, 23);
-            this.butDelete.TabIndex = 5;
-            this.butDelete.Text = "Delete";
-            this.butDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Location = new System.Drawing.Point(230, 401);
+            this.btnDelete.Name = "btnDelete";
+            this.btnDelete.Size = new System.Drawing.Size(75, 23);
+            this.btnDelete.TabIndex = 5;
+            this.btnDelete.Text = "Delete";
+            this.btnDelete.UseVisualStyleBackColor = true;
             // 
-            // AccManagement
+            // AccManagement_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Teal;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.butDelete);
-            this.Controls.Add(this.butUpdate);
-            this.Controls.Add(this.butAdd);
+            this.Controls.Add(this.btnDelete);
+            this.Controls.Add(this.btnUpdate);
+            this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.butSearch);
+            this.Controls.Add(this.btnSearch);
             this.Controls.Add(this.textBox1);
-            this.Name = "AccManagement";
+            this.Name = "AccManagement_Form";
             this.Text = "AccManagement";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
@@ -113,10 +113,10 @@
         #endregion
 
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button butSearch;
+        private System.Windows.Forms.Button btnSearch;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Button butAdd;
-        private System.Windows.Forms.Button butUpdate;
-        private System.Windows.Forms.Button butDelete;
+        private System.Windows.Forms.Button btnAdd;
+        private System.Windows.Forms.Button btnUpdate;
+        private System.Windows.Forms.Button btnDelete;
     }
 }

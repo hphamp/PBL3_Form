@@ -15,3 +15,5 @@ C:\Users\ASUS\source\repos\WindowsFormsApp111\WindowsFormsApp111\obj\Debug\Windo
 C:\Users\ASUS\source\repos\WindowsFormsApp111\WindowsFormsApp111\obj\Debug\WindowsFormsApp111.CheckIO_Form.resources
 C:\Users\ASUS\source\repos\WindowsFormsApp111\WindowsFormsApp111\obj\Debug\WindowsFormsApp111.ServicePay_Form.resources
 C:\Users\ASUS\source\repos\WindowsFormsApp111\WindowsFormsApp111\obj\Debug\WindowsFormsApp111.MainForm_User.resources
+C:\Users\ASUS\source\repos\WindowsFormsApp111\WindowsFormsApp111\obj\Debug\WindowsFormsApp111.Chat_Form.resources
+C:\Users\ASUS\source\repos\WindowsFormsApp111\WindowsFormsApp111\obj\Debug\WindowsFormsApp111.PersonalInfor_Form.resources

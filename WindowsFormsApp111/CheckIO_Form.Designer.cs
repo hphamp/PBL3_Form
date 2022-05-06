@@ -28,29 +28,29 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.butCheckin = new System.Windows.Forms.Button();
-            this.butCheckout = new System.Windows.Forms.Button();
+            this.btnCheckin = new System.Windows.Forms.Button();
+            this.btnCheckout = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // butCheckin
+            // btnCheckin
             // 
-            this.butCheckin.Location = new System.Drawing.Point(498, 23);
-            this.butCheckin.Name = "butCheckin";
-            this.butCheckin.Size = new System.Drawing.Size(115, 39);
-            this.butCheckin.TabIndex = 0;
-            this.butCheckin.Text = "Checkin";
-            this.butCheckin.UseVisualStyleBackColor = true;
+            this.btnCheckin.Location = new System.Drawing.Point(498, 23);
+            this.btnCheckin.Name = "btnCheckin";
+            this.btnCheckin.Size = new System.Drawing.Size(115, 39);
+            this.btnCheckin.TabIndex = 0;
+            this.btnCheckin.Text = "Checkin";
+            this.btnCheckin.UseVisualStyleBackColor = true;
             // 
-            // butCheckout
+            // btnCheckout
             // 
-            this.butCheckout.Location = new System.Drawing.Point(633, 23);
-            this.butCheckout.Name = "butCheckout";
-            this.butCheckout.Size = new System.Drawing.Size(115, 39);
-            this.butCheckout.TabIndex = 1;
-            this.butCheckout.Text = "Checkout";
-            this.butCheckout.UseVisualStyleBackColor = true;
+            this.btnCheckout.Location = new System.Drawing.Point(633, 23);
+            this.btnCheckout.Name = "btnCheckout";
+            this.btnCheckout.Size = new System.Drawing.Size(115, 39);
+            this.btnCheckout.TabIndex = 1;
+            this.btnCheckout.Text = "Checkout";
+            this.btnCheckout.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
@@ -82,8 +82,8 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.butCheckout);
-            this.Controls.Add(this.butCheckin);
+            this.Controls.Add(this.btnCheckout);
+            this.Controls.Add(this.btnCheckin);
             this.Name = "CheckIO_Form";
             this.Text = "CheckIO_Form";
             this.ResumeLayout(false);
@@ -93,8 +93,8 @@
 
         #endregion
 
-        private System.Windows.Forms.Button butCheckin;
-        private System.Windows.Forms.Button butCheckout;
+        private System.Windows.Forms.Button btnCheckin;
+        private System.Windows.Forms.Button btnCheckout;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
     }

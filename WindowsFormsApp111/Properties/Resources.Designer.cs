@@ -73,9 +73,29 @@ namespace WindowsFormsApp111.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap avt {
+            get {
+                object obj = ResourceManager.GetObject("avt", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap backgroud {
             get {
                 object obj = ResourceManager.GetObject("backgroud", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap gmail_4561841_1280 {
+            get {
+                object obj = ResourceManager.GetObject("gmail-4561841_1280", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

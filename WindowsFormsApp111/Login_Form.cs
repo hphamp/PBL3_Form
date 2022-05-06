@@ -28,5 +28,11 @@ namespace WindowsFormsApp111
             Forgottenpass_Form f = new Forgottenpass_Form();
             f.ShowDialog();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MainForm_User f = new MainForm_User();
+            f.ShowDialog();
+        }
     }
 }

@@ -33,15 +33,15 @@
             this.butCheckIO = new System.Windows.Forms.Button();
             this.butServicePay = new System.Windows.Forms.Button();
             this.butAccManager = new System.Windows.Forms.Button();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel_top = new System.Windows.Forms.Panel();
             this.labelHome = new System.Windows.Forms.Label();
             this.labelTop = new System.Windows.Forms.Label();
             this.panel_body = new System.Windows.Forms.Panel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel_left.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel_top.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -106,16 +106,6 @@
             this.butAccManager.UseVisualStyleBackColor = false;
             this.butAccManager.Click += new System.EventHandler(this.butAccManager_Click);
             // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::WindowsFormsApp111.Properties.Resources.backgroud;
-            this.pictureBox2.Location = new System.Drawing.Point(4, 3);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(322, 181);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
-            // 
             // panel_top
             // 
             this.panel_top.BackColor = System.Drawing.Color.DarkSlateGray;
@@ -157,6 +147,16 @@
             this.panel_body.Size = new System.Drawing.Size(966, 455);
             this.panel_body.TabIndex = 3;
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::WindowsFormsApp111.Properties.Resources.backgroud;
+            this.pictureBox2.Location = new System.Drawing.Point(4, 3);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(322, 181);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 0;
+            this.pictureBox2.TabStop = false;
+            // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::WindowsFormsApp111.Properties.Resources.Thiết_kế_chưa_có_tên__7_;
@@ -181,9 +181,9 @@
             this.Name = "Mainform_Employee";
             this.Text = "Mainform_Employee";
             this.panel_left.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel_top.ResumeLayout(false);
             this.panel_top.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 

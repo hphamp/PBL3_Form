@@ -16,10 +16,41 @@ namespace WindowsFormsApp111
         {
             InitializeComponent();
         }
-
+        private Form currentFormBody;
+        private void OpenFormBody(Form bodyForm)
+        {
+            if (currentFormBody != null)
+            {
+                currentFormBody.Close();
+            }
+            currentFormBody = bodyForm;
+            bodyForm.TopLevel = false;
+            bodyForm.FormBorderStyle = FormBorderStyle.None;
+            bodyForm.Dock = DockStyle.Fill;
+            panel_body.Controls.Add(bodyForm);
+            panel_body.Tag = bodyForm;
+            bodyForm.BringToFront();
+            bodyForm.Show();
+        }
         private void MainForm_User_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnPersonalInfor_Click(object sender, EventArgs e)
+        {
+            OpenFormBody(new PersonalInfor_Form());
+        }
+
+        private void btnChat_Click(object sender, EventArgs e)
+        {
+            OpenFormBody(new Chat_Form());
+        }
+
+        private void btnLoutout_Click(object sender, EventArgs e)
+        {
+            Login_Form f = new Login_Form();
+            f.Show();
         }
     }
 }
